@@ -87,7 +87,6 @@ public class ConceptVuMarkIdentificationWebcam extends LinearOpMode {
     WebcamName webcamName;
 
     @Override public void runOpMode() {
-
         /*
          * Retrieve the camera we are to use.
          */

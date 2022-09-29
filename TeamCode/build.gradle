@@ -33,5 +33,9 @@ dependencies {
     implementation project(':FtcRobotController')
     implementation 'org.openftc:easyopencv:1.5.2'
     implementation 'org.openftc:apriltag:1.1.0'
+    implementation 'com.acmerobotics.dashboard:dashboard:0.4.5'
+    implementation('com.acmerobotics.dashboard:dashboard:0.4.5') {
+        exclude group: 'org.firstinspires.ftc'
+    }
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
 }
