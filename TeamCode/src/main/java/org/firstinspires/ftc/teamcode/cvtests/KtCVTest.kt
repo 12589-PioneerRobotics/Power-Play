@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.CVTests
+package org.firstinspires.ftc.teamcode.cvtests
 
 import com.acmerobotics.dashboard.FtcDashboard
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode
